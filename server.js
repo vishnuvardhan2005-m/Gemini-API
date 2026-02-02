@@ -8,7 +8,7 @@ const app = express();
 const upload = multer({ dest: "uploads/" });
 
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyDkECZajV3mPMvIxvkyHe9OderJWx5QG0k",
+  apiKey: "Insert Gemini API",
 });
 
 app.use(cors());
